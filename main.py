@@ -20,7 +20,6 @@ else:
             if work_buffer:
                if len(work_buffer[0]) == len(i) and len(work_buffer[0]) ==3:
                 m += [int(work_buffer[0])]
-                print(f'Вывод: {m}')
         buffer = f.readline().split()
 if m:
     max_number = max(m)
